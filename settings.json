@@ -1,0 +1,29 @@
+// Place your settings in this file to overwrite the default settings
+{
+
+    "editor.wrappingColumn": 120,
+    "window.zoomLevel": 2,
+    "workbench.statusBar.visible": false,
+    "explorer.openEditors.visible": 0,
+    "workbench.activityBar.visible": false,
+    "editor.minimap.enabled": false,
+    "vim.insertModeKeyBindings": [
+        {
+            "before": ["j","j"],
+            "after": ["<Esc>"]
+        }
+    ],
+    "php-cs-fixer.onsave": true,
+    "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
+    "php-cs-fixer.lastDownload": 1558019044844,
+    "emmet.includeLanguages": {
+        "blade": "blade.php",
+    },
+    "emmet.showExpandedAbbreviation": "inMarkupAndStylesheetFilesOnly",
+    "editor.fontLigatures": true,
+    "workbench.colorTheme": "Quiet Light",
+    "[php]": {
+        "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+    },
+}
+
